@@ -87,12 +87,12 @@ fun CoinDetailsScreen(
             ) {  
                 InfoCard(
                     title = stringResource(R.string.market_cap),
-                    formatedValue = "$ ${coin.marketCapUsd.value}",
+                    formatedValue = "$ ${coin.marketCapUsd.unit}",
                     icon = ImageVector.vectorResource(R.drawable.stock),
                 )
                 InfoCard(
                     title = stringResource(R.string.price),
-                    formatedValue = "$ ${coin.priceUsd.value}",
+                    formatedValue = "$ ${coin.priceUsd.unit}",
                     icon = ImageVector.vectorResource(R.drawable.dollar),
                 )
                 val absoluteChange = (coin.priceUsd.value *(coin.changePercent24Hr.value/100))
@@ -105,7 +105,7 @@ fun CoinDetailsScreen(
                 }
                 InfoCard(
                     title = stringResource(R.string.change_last_24h),
-                    formatedValue = absoluteChange.value.toString(),
+                    formatedValue = absoluteChange.unit,
                     icon = if(isPositive) ImageVector.vectorResource(R.drawable.trending) else ImageVector.vectorResource(R.drawable.trending_down),
                     contentColor = changedColor
                 )
