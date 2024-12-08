@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CryptoTracker</string>
+    <string name="request_timeout">The Request Timed Out</string>
+    <string name="server_error">There Were An Error In The Server\n\n</string>
+    <string name="too_many_requests">Too Many Requests Slow Down !\n</string>
+    <string name="no_internet">Couldn\'t Connect To Server Please Check Your Internet Connection</string>
+    <string name="serialization_error">Couldn\'t Serlilazie Data.</string>
+    <string name="unknown_error">Something Went Wrong Please Try Again Later</string>
+    <string name="market_cap">Market Cap</string>
+    <string name="price">Price</string>
+    <string name="change_last_24h">Change Last 24h</string>
 </resources>
