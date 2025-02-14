@@ -1,23 +1,18 @@
-
 # Crypto Tracker App
 
-Welcome to the Crypto Tracker App! This application allows users to monitor the latest trends in cryptocurrency markets, tracking price fluctuations with a sleek and user-friendly interface.
+Welcome to the **Crypto Tracker App**! This application allows users to monitor real-time cryptocurrency prices, view historical data, and set custom alerts in a sleek and user-friendly interface.
+
+---
 
 ## Features
 
-- **Real-Time Tracking**: Get up-to-date information on the latest cryptocurrency prices and market trends.
-- **Historical Data Visualization**: View comprehensive line graphs and charts that depict the history of cryptocurrency values over time using Sketch.
-- **User-Friendly Interface**: Navigate through a clean and intuitive UI designed for both beginners and experienced traders.
+- **Real-Time Tracking**: Get up-to-date cryptocurrency prices and market trends.
+- **Historical Data Visualization**: View detailed charts and graphs for historical performance.
+- **User-Friendly Interface**: Clean and intuitive design for all levels of users.
+- **Custom Alerts**: Set notifications for significant market changes.
+- **Tablet Mode**: Fully optimized for tablet devices.
 
-## Usage
-
-- **Dashboard**: The main screen provides an overview of current market trends and top-performing cryptocurrencies.
-- **Detailed View**: Click on any cryptocurrency to see detailed information, including historical price charts.
-- **Alerts**: Set custom alerts to notify you of significant market changes.
-
-## Sketch Integration
-
-The app utilizes Sketch for designing and displaying historical data visualizations. Ensure you have the necessary Sketch files for optimal chart rendering.
+---
 
 ## Screenshots
 
@@ -26,8 +21,41 @@ The app utilizes Sketch for designing and displaying historical data visualizati
   <img src="https://github.com/user-attachments/assets/1d6ac971-7e9d-4c69-b79b-97b67bdea84b" width="200" />
 </p>
 
-## Tablet Mode
-
+### Tablet Mode
 ![image](https://github.com/user-attachments/assets/9d8a6a3d-8322-461d-b509-d19fec04db16)
 
+---
 
+## Usage
+
+### Dashboard
+- View real-time market trends and top-performing cryptocurrencies.
+
+### Detailed View
+- Click on any cryptocurrency to see detailed information and historical charts.
+
+### Alerts
+- Set custom alerts for price changes or market movements.
+
+---
+
+## Dependencies
+
+The app uses the following libraries and tools:
+
+- **AndroidX Core KTX**
+- **AndroidX Lifecycle Runtime KTX**
+- **Jetpack Compose BOM**
+- **Jetpack Compose Libraries**
+- **Jetpack Compose Debug Tools**
+- **Desugar JDK Libs**
+- **Koin (Dependency Injection)**
+- **Ktor (Networking)**
+
+---
+
+## Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-repo/crypto-tracker-app.git
